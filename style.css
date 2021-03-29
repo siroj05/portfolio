@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(beranda.png);
+    background-repeat: repeat;
+}
+
+nav{
+    background-color: #393B44;
+}
