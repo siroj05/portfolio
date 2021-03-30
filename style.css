@@ -10,4 +10,20 @@ body{
 nav{
     background-color: #393B44;
 }
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    transition: 0.1s;
+}
+nav ul li a:hover{
+    color: white;
+    font-size: 22px;
+}
 
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
