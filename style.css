@@ -3,8 +3,7 @@
 }
 
 body{
-    background-image: url(beranda.png);
-    background-repeat: repeat;
+   
 }
 
 nav{
@@ -20,10 +19,7 @@ nav ul li a:hover{
     font-size: 22px;
 }
 
-.container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+.judul{
+    background-image: url(beranda.png);
+    background-repeat: repeat;
 }
