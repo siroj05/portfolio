@@ -23,3 +23,24 @@ nav ul li a:hover{
     background-image: url(beranda.png);
     background-repeat: repeat;
 }
+
+.about{
+    background-color: #F1F3F8;
+}
+
+
+@mixin clearfix() {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+}
+.element {
+    @include clearfix;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
