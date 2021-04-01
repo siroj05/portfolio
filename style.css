@@ -16,3 +16,26 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.bi{
+    font-size: 20px;
+}
+
+.boks{
+    padding: 10px;
+    background: #8D93AB;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.boks p{
+    font-size: 15px;
+}
+
+.btn{
+    background-color: #D6E0F0;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+}
