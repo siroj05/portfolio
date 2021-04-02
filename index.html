@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4c0fb7544e.js" crossorigin="anonymous"></script>
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -13,23 +14,23 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Siroojuddin Apendi</a>
+        <a class="navbar-brand page-scroll" href="#home">Siroojuddin Apendi</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">About <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Portfolio</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
+          <a class="nav-item nav-link page-scroll" href="#about">About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link page-scroll" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link page-scroll" href="#contact">Contact</a>
         </div>
       </div>
       </div>
     </nav>
     <div class="jumbotron jumbotron-fluid" style="background-color: #8D93AB;">
-      <div class="container text-center" style="color: white;">
+      <div class="container text-center" style="color: white; margin-top:100px; margin-bottom: 100px;">
         <img src="siroj.JPG" alt="siroj" width="250" class="rounded-circle">
         <h1 class="display-4">Siroojuddin Apendi</h1>
         <p class="lead">Junior Software Engineering</p>
@@ -38,115 +39,127 @@
         <a href="https://www.instagram.com/sirojjuddin_a/" target="_blank"><i class="fab fa-instagram-square"></i></a>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>About</h1>
+    <section id="about">
+      <div  class="container">
+        <div class="row">
+          <div class="col text-center" >
+            <h1 >About</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-justify">
+            <div class="container">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit in facilis ex repellat cum saepe odio sed, et error incidunt esse doloribus commodi dolores, debitis, ab autem deserunt perferendis officiis assumenda praesentium quasi est cupiditate? Asperiores voluptates adipisci delectus molestiae nobis iure labore rem, sit quis maiores quasi pariatur natus ex harum? Iste veniam accusantium libero reprehenderit illum aliquid corporis, dolorum laboriosam fugiat eum sunt ex est numquam repudiandae, expedita consequuntur quod eos, explicabo nobis assumenda porro dolorem dignissimos? Rem enim, sunt quas dignissimos reprehenderit dolorem praesentium beatae iusto placeat magni. Error voluptates laborum eos repellat, consequuntur tenetur quia?</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col text-center">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit in facilis ex repellat cum saepe odio sed, et error incidunt esse doloribus commodi dolores, debitis, ab autem deserunt perferendis officiis assumenda praesentium quasi est cupiditate? Asperiores voluptates adipisci delectus molestiae nobis iure labore rem, sit quis maiores quasi pariatur natus ex harum? Iste veniam accusantium libero reprehenderit illum aliquid corporis, dolorum laboriosam fugiat eum sunt ex est numquam repudiandae, expedita consequuntur quod eos, explicabo nobis assumenda porro dolorem dignissimos? Rem enim, sunt quas dignissimos reprehenderit dolorem praesentium beatae iusto placeat magni. Error voluptates laborum eos repellat, consequuntur tenetur quia?</p>
+    </section>
+    <section id="portfolio">
+      <div class="bg " >
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1>Portfolio</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="1.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="2.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="3.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="4.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="5.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card">
+                <img class="card-img-top" src="6.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="bg">
+    </section>
+    <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col text-center">
-            <h1>Portfolio</h1>
+          <div class="col text-center" >
+            <h1>Contact</h1>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="1.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
-            </div>
+          <div class="col-sm">
+            <i class="bi bi-telephone-fill"> 081383304270</i><br>
+            <i class="bi bi-envelope-fill"> rojudin123@gmail.com</i><br>
+            <i class="bi bi-geo-alt-fill"> Pagedangan, Tangerang, Banten, Indonesia</i><br>
           </div>
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="2.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="3.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="4.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="5.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top" src="6.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Inimah orang cibelut rumah deket stasiun ciasuk</p>
-              </div>
+          <div class="col-sm">
+            <div class="container boks">
+              <h4>Send Message</h4>
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Full Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Type your Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn">Send!</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h1>Contact</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <i class="bi bi-telephone-fill"> 081383304270</i><br>
-          <i class="bi bi-envelope-fill"> rojudin123@gmail.com</i><br>
-          <i class="bi bi-geo-alt-fill"> Pagedangan, Tangerang, Banten, Indonesia</i><br>
-        </div>
-        <div class="col">
-          <div class="container boks">
-            <h4>Send Message</h4>
-            <form>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Full Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Type your Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="button" class="btn">Send!</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
+    
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
